@@ -13,14 +13,14 @@ interface BattleSetupProps {
 }
 
 const BATTLE_TOPICS = [
-  'Street Credibility',
-  'Money and Success',
-  'Life Struggles',
-  'Hip-Hop Culture',
-  'Personal Growth',
-  'Competition',
-  'Dreams and Ambitions',
-  'Social Issues'
+  'Queers For Palestine',
+  'Democrats VS. Republicans',
+  'Aerodynamic of a Wild Hog',
+  'Rap with an Indian Accent',
+  'Were Germans Wrong?',
+  'Freestyle',
+  'Best Mom Jokes',
+  'Christian VS. Muslims'
 ]
 
 export function BattleSetup({ onBattleStart }: BattleSetupProps) {
