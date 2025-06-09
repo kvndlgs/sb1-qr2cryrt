@@ -28,7 +28,7 @@ export interface VerseParams {
 export async function generateRapVerse(params: VerseParams): Promise<string> {
   const { character, topic, opponent, previousVerse, battleContext } = params
 
-  const systemPrompt = `You are an AI rap battle generator specializing in creating authentic, creative and very vulgar verses.
+  const systemPrompt = `You are an AI rap battle generator specializing in creating lame but funny verse.
 
 Character Profile:
 - Name: ${character.name}
@@ -40,9 +40,10 @@ Character Profile:
 Guidelines:
 - Generate exactly 16 bars (lines)
 - Use ${character.style.rhymeScheme} rhyme scheme
+- Go totally off topic from time to time
 - Stay in character with appropriate vocabulary and flow
 - Be creative with wordplay and metaphors
-- Keep content competitive but appropriate
+- Everything is permitted
 - Reference the topic: ${topic}
 ${opponent ? `- Reference opponent: ${opponent}` : ''}
 ${previousVerse ? `- Respond to previous verse themes` : ''}
