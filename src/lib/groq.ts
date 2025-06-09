@@ -28,7 +28,7 @@ export interface VerseParams {
 export async function generateRapVerse(params: VerseParams): Promise<string> {
   const { character, topic, opponent, previousVerse, battleContext } = params
 
-  const systemPrompt = `You are an AI rap battle generator specializing in creating authentic, creative verses.
+  const systemPrompt = `You are an AI rap battle generator specializing in creating authentic, creative and very vulgar verses.
 
 Character Profile:
 - Name: ${character.name}
